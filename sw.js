@@ -1,5 +1,5 @@
 var GHPATH = '/github-pages-progressive-web-app';
-var APP_PREFIX = 'gppwaTest_';
+var APP_PREFIX = 'gppwa_';
 var VERSION = 'version_001';
 var URLS = [    
   `${GHPATH}/`,
