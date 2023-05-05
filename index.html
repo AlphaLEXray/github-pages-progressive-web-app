@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub page as PWA template</title>
+  <link rel="canonical" href="https://alphalexray.github.io/github-pages-progressive-web-app/" />
+  <link rel="manifest" href="/github-page-pwa/manifest.webmanifest">
+</head>
+<body>
+  <h1>GitHub page as PWA template</h1>
+  <h2>Based on https://christianheilmann.com/2022/01/13/turning-a-github-page-into-a-progressive-web-app/</h2>
+  <script>
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/github-pages-progressive-web-app/sw.js',
+          {scope: '/github-pages-progressive-web-app/'}
+        )
+      }
+  </script>
+</body>
+</html>
