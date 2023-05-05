@@ -22,9 +22,9 @@
     // you may not be able to install the app. 
     "icons": [
         {
-          "src": "/github-pages-progressive-web-app/img/icon.gif",
-          "type": "image/gif",
-          "sizes": "400x400"
+          "src": "/github-pages-progressive-web-app/img/icon.png",
+          "type": "image/png",
+          "sizes": "50x50"
         }
     ]
   }
